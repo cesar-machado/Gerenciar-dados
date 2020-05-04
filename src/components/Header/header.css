@@ -1,0 +1,31 @@
+.topo {
+    grid-area:  header;
+    background: linear-gradient(to right, #00bfff , #000080);
+
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+
+h1 {
+    font-size: 1.2rem;
+    color: #fff;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+}
+
+.menuToggle  {
+    width: 60px;
+    height: 100%; 
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.menuToggle:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
